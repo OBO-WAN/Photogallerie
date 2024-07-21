@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en, de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulgheroni Gallerie</title>
+    <link rel="icon" href="./png/logo.png">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- Sticky header -->
+<header class="header-outer">
+	<div class="header-inner responsive-wrapper">
+		<div class="header-logo">
+		 <a href="https://www.bulgheroni.it/home.asp?l=de">
+			<img src="./png/logo.png" class="center jello">
+		 </a>	
+		</div>
+		<nav class="header-navigation">
+			<a href="https://www.bulgheroni.it/home.asp?l=de">Home</a>
+			<a href="https://www.bulgheroni.it/azienda.asp?l=de">About</a>
+			<a href="https://www.bulgheroni.it/news.asp?l=de">News</a>
+			<a href="https://www.bulgheroni.it/contatti.asp?l=de">Contact Us</a>
+		</nav>	
+			<div class="menu_button" onclick="showSidebar()">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		<nav class="sidebar">
+			<img class="x" onclick="hideSidebar()" src="./png/close.png" alt="close">
+			
+		  <ul style="list-style: none;">
+			<li><a href="https://www.bulgheroni.it/home.asp?l=de">Home</a></li>
+			<li><a href="https://www.bulgheroni.it/azienda.asp?l=de">About</a></li>
+			<li><a href="https://www.bulgheroni.it/news.asp?l=de">News</a></li>
+			<li><a href="https://www.bulgheroni.it/contatti.asp?l=de">Contact us</a></li>
+		  </ul>
+		
+		</nav>
+		
+	</div>
+
+</header>
+
+<div id="container">
+	<p class="border"></p>
+</div>
+
+<!-- Content -->
+
+
+<div class="main" id="main">
+ 
+    <img onclick="openWindow(0)" src="./png/fb/fb_png_compressed/1.png" class="picture"> 
+	<img onclick="openWindow(1)" src="./png/fb/fb_png_compressed/2.png" class="picture"> 
+	<img onclick="openWindow(2)" src="./png/fb/fb_png_compressed/3.png" class="picture">
+	<img onclick="openWindow(3)" src="./png/fb/fb_png_compressed/4.png" class="picture">
+	<img onclick="openWindow(4)" src="./png/fb/fb_png_compressed/5.png" class="picture">
+	<img onclick="openWindow(5)" src="./png/fb/fb_png_compressed/6.png" class="picture">
+	<img onclick="openWindow(6)" src="./png/fb/fb_png_compressed/7.png" class="picture">
+	<img onclick="openWindow(7)" src="./png/fb/fb_png_compressed/8.png" class="picture">
+	<img onclick="openWindow(8)" src="./png/fb/fb_png_compressed/9.png" class="picture">
+	<img onclick="openWindow(9)" src="./png/fb/fb_png_compressed/10.png" class="picture">
+	<img onclick="openWindow(10)" src="./png/fb/fb_png_compressed/11.png" class="picture">
+	<img onclick="openWindow(11)" src="./png/fb/fb_png_compressed/12.png" class="picture">
+	<img onclick="openWindow(12)" src="./png/fb/fb_png_compressed/13.png" class="picture">
+	<img onclick="openWindow(13)" src="./png/fb/fb_png_compressed/14.png" class="picture">
+	<img onclick="openWindow(14)" src="./png/fb/fb_png_compressed/15.png" class="picture">
+	<img onclick="openWindow(15)" src="./png/fb/fb_png_compressed/16.png" class="picture">
+	<img onclick="openWindow(16)" src="./png/fb/fb_png_compressed/17.png" class="picture">
+	<img onclick="openWindow(17)" src="./png/fb/fb_png_compressed/18.png" class="picture">
+	<img onclick="openWindow(18)" src="./png/fb/fb_png_compressed/19.png" class="picture">
+	<img onclick="openWindow(19)" src="./png/fb/fb_png_compressed/20.png" class="picture">
+
+</div>
+
+<footer>
+	<div class="logo-footer" >
+		<a href="https://www.bulgheroni.it/home.asp?l=de">
+			<img src="png/logo.png">
+		</a>
+	</div>
+
+			<p>Copyright © Francisco Naranjo</p>
+	
+</footer>
+
+
+<div class="overlayContainer" id="overlay" style="display: none;">
+	<span class="closeOverlay" onclick="closeWindow()">×</span>
+	<img id="overlayImage" class="diashow" src="">
+	<span class="backArrow" onclick="changeImage(-1)" alt="back">«</span>
+	<span class="nextArrow" onclick="changeImage(1)" alt="next">»</span>
+</div>
+
+
+</body>
+
+
+</html>
