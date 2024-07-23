@@ -12,8 +12,7 @@
 	--header-outer-height: 144px;
 	/* --header-inner-height: 70px; */
 	--header-height-difference: calc(
-		var(--header-outer-height) - var(--header-inner-height)
-	);
+	var(--header-outer-height) - var(--header-inner-height));
 	--header-bg: #283d12;
 }
 
@@ -26,13 +25,13 @@ body {
 	/* Scrollbar */ 
 
 	--sb-track-color:  #6d5b23;
-    --sb-thumb-color: #251818;
-    --sb-size: 14px;
+   	--sb-thumb-color: #251818;
+    	--sb-size: 14px;
 	
 }
 
 body::-webkit-scrollbar {
-	width: var(--sb-size);
+      width: var(--sb-size);
   }
   
   body::-webkit-scrollbar-track {
@@ -201,7 +200,7 @@ body::-webkit-scrollbar {
 }
 
 .bar {
-	width: 25px;
+    width: 25px;
     height: 5px;
     margin: 5px auto;
     transition: all 0.3s ease;
@@ -250,10 +249,10 @@ ul {
 
 .x {
 	display: flex;
-    justify-content: right;
-    position: relative;
-    cursor: pointer;
-    padding-left: 124px;
+        justify-content: right;
+    	position: relative;
+    	cursor: pointer;
+    	padding-left: 124px;
 	margin-top: 54px;
 	height: 38px;
 }
@@ -263,7 +262,7 @@ nav a {
     align-items: flex-start;
     color: bisque;
     text-decoration: none;
-	padding: 16px;
+    padding: 16px;
 }
 
 nav a:hover {
@@ -323,15 +322,15 @@ nav a:hover {
 	filter: grayscale(0%);
 
 	opacity: 2.5;
-    transition: transform .4s;
-    transform: scale(1.1);
+        transition: transform .4s;
+    	transform: scale(1.1);
 }
 
 @media (max-width: 911px) {
 
 	.main img{
-		display: flex;
-		justify-content: center;
+	display: flex;
+	justify-content: center;
 
 	}
 }
@@ -341,30 +340,26 @@ nav a:hover {
 @media (min-width: 2083px) {  
 
 	.main {
-		height: 100vh;
+	height: 100vh;
 	}
 }
 
 /*
-
 .pictures  {
-
 to be complete ONLY if each picture has to fulfill a special task
-
 }
-
 */
 
 footer {
 
 	height: var(--header-outer-height);
 	margin-top: 3rem;
-    top: calc(var(--header-height-difference)* -1);
-    display: flex;
+    	top: calc(var(--header-height-difference)* -1);
+    	display: flex;
 	justify-content: space-between;
-    align-items: center;
-    background-color: var(--header-bg);
-    box-shadow: 0 0px 36px 0 rgba(207, 206, 206);
+    	align-items: center;
+    	background-color: var(--header-bg);
+    	box-shadow: 0 0px 36px 0 rgba(207, 206, 206);
 }
 
 @media (max-width: 424px) {
@@ -372,14 +367,13 @@ footer {
 	footer {
 	height: var(--header-outer-height);
 	margin-top: 3rem;
-    top: calc(var(--header-height-difference)* -1);
-    display: flex;
+    	top: calc(var(--header-height-difference)* -1);
+    	display: flex;
 	justify-content: center;
-    align-items: center;
+    	align-items: center;
 	flex-direction: column;
-    background-color: var(--header-bg);
-    box-shadow: 0 0px 36px 0 rgba(207, 206, 206);
-
+    	background-color: var(--header-bg);
+    	box-shadow: 0 0px 36px 0 rgba(207, 206, 206);
 	}	
 }
 
@@ -388,11 +382,10 @@ footer {
 	padding-top: 6px;
 
 	animation-name: spin;
-    animation-duration: 3.50s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    	animation-duration: 3.50s;
+    	animation-iteration-count: infinite;
+    	animation-timing-function: linear;
 	animation-direction: alternate;
-
 }
 
 @keyframes spin {
@@ -422,8 +415,8 @@ p {
 
 .overlayContainer {
 
-	display: none;
-	position: fixed;
+    display: none;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -441,8 +434,8 @@ p {
 
 .closeOverlay {
 
-	position: absolute;
-	display: flex;
+    position: absolute;
+    display: flex;
     top: 24px;
     right: 64px;
     font-size: 114px;
@@ -502,8 +495,8 @@ p {
 	font-weight: bolder;
 	font-size: 10rem;
 	color: #af1414;
-    top: 60%;
-    cursor: pointer;
+        top: 60%;
+    	cursor: pointer;
 	left: 104px;
 }
 
@@ -515,8 +508,8 @@ p {
 	font-weight: bolder;
 	font-size: 10rem;
 	color: #af1414;
-    top: 60%;
-    cursor: pointer;
+    	top: 60%;
+    	cursor: pointer;
 	right: 104px;
 }
 
@@ -529,8 +522,8 @@ p {
 	font-weight: bolder;
 	font-size: 7rem;
 	color: white;
-    top: 65%;
-    cursor: pointer;
+    	top: 65%;
+    	cursor: pointer;
 	margin-inline: -55px;
  }
 
@@ -538,7 +531,7 @@ p {
 
 .diashow {
 
-	position: fixed;
+    position: fixed;
     object-fit: cover;
     top: 50%;
     left: 50%;
