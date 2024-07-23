@@ -336,11 +336,20 @@ nav a:hover {
 	}
 }
 
+/* Get <footer> under control */
+
+@media (min-width: 2083px) {  
+
+	.main {
+		height: 100vh;
+	}
+}
+
 /*
 
 .pictures  {
 
-to be complete ONLY for each picture
+to be complete ONLY if each picture has to fulfill a special task
 
 }
 
